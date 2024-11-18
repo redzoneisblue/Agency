@@ -1,0 +1,269 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+/* header styling */
+header {
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151515;
+}
+
+img {
+    margin-left: 10rem;
+    width: 200px;
+}
+
+ul {
+    margin-right: 10rem;
+    width: 37vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header ul .home-sub {
+    display: none;
+}
+
+
+.content-one {
+    height: 85vh;
+    width: 100vw;
+    padding: 7rem;
+    padding-left: 12rem;
+    padding-right: 0;
+    color: white;
+    background-color: #0C0C0C;
+}
+.content-one h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.content-one h1 {
+    width: 63vw;
+    font-size: 5rem;
+    font-weight: 770;
+    line-height: 1;
+}
+.content-one p {
+    line-height: 2;
+    width: 33vw;
+}
+
+.line {
+    margin: 1.4rem;
+    margin-left: 0;
+    background-color: #5CD2B9;
+    width: 9vw;
+    height: 2px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.about-button {
+    width: 80px;
+    height: 80px;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5CD2B9;
+    border-radius: 50%;
+}
+.about-button div {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin-left: 0.5rem;
+    border-top: 15px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 15px solid transparent;
+}
+.about-us h1 {
+    font-size: 1.4rem;
+}
+
+.about-button-back {
+    position: absolute;
+    left: 11.5rem;
+    width: 100px;
+    height: 100px;
+    margin-right: 3rem;
+    opacity: 0;
+    background-color: #5CD2B9;
+    border-radius: 50%;
+}
+#two {
+    width: 110px;
+    height: 110px;
+}
+
+.content-two {
+    height: 85vh;
+    width: 100vw;
+    padding: 7rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-two .text-content {
+    width: 30vw;
+}
+
+.clickable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clickable .div-one {
+    margin-bottom: 3rem;
+}
+
+
+
+.clickable .div-one div {
+    width: 16rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #0C0C0C;
+}
+
+.clickable .div-two div {
+    width: 16rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0C0C0C;
+}
+.clickable h3 {
+    margin-bottom: 13px;
+}
+
+.text-content a {
+    position: relative;
+    top: 6rem;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    background-color: #5CD2B9;
+    border: 1px solid #5CD2B9;
+}
+.text-content a:hover {
+    background-color: black;
+}
+
+.clickable img {
+    align-self: center;
+    max-width: 100px;
+    margin-right: 150px;
+}
+
+#headphone {
+    position: relative;
+    right: 9rem;
+    bottom: -7rem;
+    width: 21rem;
+}
+
+#headphone:hover {
+    transform: scale(1.05);
+}
+
+.clickable {
+    margin-top: 2rem;
+}
+.box-click {
+    width: 16rem;
+    padding: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0C0C0C;
+}
+
+.margin-one {
+    z-index: 1;
+    width: 100vw;
+    height: 40vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1B312C;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    margin-right: 10.1rem;
+    width: 90px;
+    margin-bottom: -15px;
+}
+
+.box h1 {
+    font-size: 4rem;
+    margin-bottom: -10px;
+    color: #5CD2B9;
+}
+
+.box h3 {
+    color: white;
+}
+
+
+/* content three */
+
+.content-three {
+    width: 100vw;
+    height: 100%;
+}
+
